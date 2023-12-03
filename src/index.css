@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  :root{
+    --bg-background:#fff;
+    --bg-primary: #9B58CB;
+    --bg-header:#7447aecc;
+    --text-primary: #fff;
+    --accent: #37A7FF;
+    --accent-2: #9B58CB;
+    --text-secondary: #4E4C58;
+  }
+  .dark{
+    --bg-background:#000;
+    --bg-primary: #212121;
+    --bg-header:#0000009d;
+    --text-primary: #fff;
+    --accent: #37A7FF;
+    --accent-2: #9B58CB;
+    --text-secondary: #fff;
+  }
+
+}
+
+.max-screen{
+  @apply max-w-7xl w-10/12 mx-auto flex flex-col gap-20
+}
+
